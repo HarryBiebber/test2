@@ -4,6 +4,8 @@
 #include <thread>
 //增加了一处修改
 // 1. 定义一个信号处理函数
+
+
 void signal_handler(int signum) {
     std::cout << "\n捕获到中断信号 (" << signum << ")！正在准备退出..." << std::endl;
     // 在这里可以添加保存文件的代码
