@@ -4,7 +4,7 @@
 #include <thread>
 //增加了一处修改
 // 1. 定义一个信号处理函数
-
+//一个新修改111111111111111
 
 void signal_handler(int signum) {
     std::cout << "\n捕获到中断信号 (" << signum << ")！正在准备退出..." << std::endl;
